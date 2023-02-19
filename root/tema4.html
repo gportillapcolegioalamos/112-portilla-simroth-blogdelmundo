@@ -5,11 +5,12 @@
         <!--Carga los caracteres latinos-->
         <meta charset="UTF-8">
         <title>Barcelona</title>
+        <link rel="stylesheet" href="assets/styles/fede.css">
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="propuestas.html" target="_blank">Principal</a></li>
+                <li><a class="resaltado" href="propuestas.html" target="_blank">Principal</a></li>
                 <li><a href="tema1.html">Tema1</a></li>
                 <li><a href="tema2.html">Tema2</a></li>
                 <li><a href="tema3.html">tema3</a></li>
@@ -21,7 +22,7 @@
         <!--empieza mi blog-->
         <section>
             <!--itulo del blog-->
-            <header>
+            <header id="tituloblog">
                 <h1>LA Ciudad de Barcelona</h1>
             </header>
             <!--Termina titulo del blog-->
@@ -52,21 +53,96 @@
                     ¿Sabías que Gaudí inicialmente sólo construyó entera la fachada del Nacimiento con sus 4 torres porque era consciente que no la vería terminada?
                     
                     Antoni Gaudí, que pretendía crear el templo perfecto, presenta la vida de Jesús y la historia de la fe. Las 18 torres están dedicadas a importantes personajes de la Biblia y así se refleja en sus dimensiones: 12 de ellas representan a los apóstoles, 4 a los evangelistas, una a la Virgen María y la más altas de todas a Jesucristo, que estará rematada por una cruz que alcanzará los 172 metros de altura. Cuando esté terminada, la Sagrada Familia será la construcción más alta de Barcelona y la iglesia más alta del mundo.</p>
-                    <figure>
-                        <img src="assets/images/merlin_131437401_a5012549-6fc5-44be-b9db-c2ef15b68d43-superJumbo.jpg" alt="Basilica Sagrada Familia" height="600px" width="auto">
-                        <figcaption>Foto de la Basilica de Noche</figcaption>
+                    <figure class="ilustracion">
+                        <img src="assets/images/merlin_131437401_a5012549-6fc5-44be-b9db-c2ef15b68d43-superJumbo.jpg" alt="Basilica Sagrada Familia" height="auto" width="100%">
+                        <figcaption class="caption">Foto de la Basilica de Noche</figcaption>
                     </figure>
                     <h3>Motivacion</h3>
                     <p>Barcelona es la única ciudad de Europa con playas dentro del núcleo urbano, dispone de 32 km de playa que, por las temperaturas, permite bañarse y practicar deportes acuáticos casi todo el año. Parques. La ciudad de Barcelona también cuenta con numerosos espacios verdes.</p>
-                    <figure>
-                        <img src="assets/images/image.jpg" alt="Playa" height="600px" width="auto">
-                        <figcaption>Playa de Barcelona</figcaption>
+                    <figure class="ilustracion">
+                        <img src="assets/images/image.jpg" alt="Playa" height="auto" width="100%">
+                        <figcaption class="caption">Playa de Barcelona</figcaption>
                     </figure>
             </div>
             <footer>
-
+                <!-- Datos del autor -->
+                <div>
+                    <span>Federico Simroth</span> <a href="http://twitter.com/fedesimroth" target="_blank">@fedesimroth en Twitter</a>
+                </div>
+                <!-- fin datos del autor -->
+                <!-- bibliografía -->
+                <blockquote>
+                    <p>"Barcelona: turismo y cultura", Ayuntamiento de Barcelona, 2020.</p>
+                </blockquote>
+                <!-- fin bibliografía -->
             </footer>
            </article>
+
+           <article>
+            <header>
+                <hgroup>
+                    <!-- Título del artículo con ícono -->
+                    <h2><img src="assets/images/st,small,507x507-pad,600x600,f8f8f8.jpeg" alt="Ícono de Barcelona" height="35px" width="auto"> Barcelona: la ciudad del sol y la arquitectura modernista</h2>
+                    <!-- Fecha en la que se escribió el artículo -->
+                    <h4>19/02/2023</h4>
+                </hgroup>    
+            </header>
+            <!-- inicia contenido del artículo -->
+            <div>
+                <h3>Introducción</h3>
+                <p>Barcelona es una ciudad que no necesita presentación. Su fama se extiende por todo el mundo gracias a su clima cálido, sus playas y su arquitectura única. En este artículo, te llevaremos a un recorrido por los lugares más emblemáticos de la ciudad, y te contaremos un poco de su historia.</p>
+                <h3>Arquitectura modernista</h3>
+                <p>Barcelona es conocida por su arquitectura modernista, que es un estilo arquitectónico que floreció en Europa a finales del siglo XIX y principios del siglo XX. Uno de los arquitectos más famosos del modernismo es Antoni Gaudí, cuyas obras se pueden encontrar por toda la ciudad. Algunos de los edificios más conocidos de Gaudí son:</p>
+                <ul>
+                    <li>La Sagrada Familia: es una iglesia en construcción desde 1882, y se espera que esté terminada en 2026. Es uno de los monumentos más visitados de España, con más de 4,5 millones de visitantes al año.</li>
+                    <li>La Pedrera: es un edificio de apartamentos que fue construido entre 1906 y 1912. Es famoso por su fachada ondulada y su terraza con chimeneas de formas extrañas.</li>
+                    <li>El Parque Güell: es un parque público que fue diseñado por Gaudí entre 1900 y 1914. Es famoso por sus mosaicos de colores y por la estatua del dragón que se encuentra en la entrada.</li>
+                </ul>
+
+            
+                <h3>Playas</h3>
+                <p>Barcelona tiene una costa de 4,5 kilómetros, y cuenta con varias playas que son muy populares entre los turistas y los habitantes de la ciudad. Algunas de las playas más conocidas son:</p>
+                <ul>
+                    <li>La Barceloneta: es la playa más famosa de Barcelona, y está situada en el barrio del mismo nombre. Es una playa muy concurrida, y cuenta con muchos bares y restaurantes.</li>
+                    <li>Sant Sebastià: es la playa más larga de Barcelona, y está situada en el barrio de la Barceloneta. Es una playa menos concurrida que la Barceloneta, y es ideal para aquellos que buscan un poco de tranquilidad.</li>
+                </ul>
+            
+                <!-- estadísticas -->
+                <h3>Estadísticas de turismo en Barcelona</h3>
+                <p>Barcelona es una ciudad muy popularpara el turismo, con una gran afluencia de visitantes internacionales y nacionales. A continuación te presentamos algunas estadísticas relevantes:</p>
+                <ul>
+                <li>En 2019, Barcelona recibió más de <meter value="12" min="0" max="22"></meter> 12 millones de turistas internacionales, lo que supuso un aumento del 4,2% con respecto al año anterior. <label>Turismo internacional</label></li>
+                <li>Los turistas que visitan Barcelona proceden principalmente de Francia, Reino Unido, Italia y Alemania. <label>Países de origen de los turistas</label></li>
+                <li>En 2019, los turistas nacionales realizaron más de <meter value="5" min="0" max="10"></meter> 5 millones de pernoctaciones en la ciudad, lo que supuso un aumento del 1,8% con respecto al año anterior. <label>Turismo nacional</label></li>
+                <li>El sector turístico en Barcelona genera más de <meter value="120000" min="0" max="200000"></meter> 120.000 empleos directos y 60.000 empleos indirectos. <label>Empleo en el sector turístico</label></li>
+                </ul>
+                <!-- fin estadísticas -->
+                <h3>Conclusión</h3>
+                <p>Barcelona es una ciudad fascinante, que ofrece una combinación única de arquitectura modernista, playas y buena comida. Si estás pensando en visitar Barcelona, no te arrepentirás. ¡Te esperamos con los brazos abiertos!</p>
+           
+                <figure class="ilustracion">
+                    <img src="assets/images/barceloneta-beach.jpeg" alt="playa" height="auto" width="100">
+                    <figcaption class="caption">Playa de Barcelona</figcaption>
+                </figure>
+           
+            </div>
+            <!-- Termina contenido del artículo -->
+            
+            <footer>
+                <!-- Datos del autor -->
+                <div>
+                    <span>Federico Simroth</span> <a href="http://twitter.com/fedesimroth" target="_blank">@fedesimroth en Twitter</a>
+                </div>
+                <!-- fin datos del autor -->
+                <!-- bibliografía -->
+                <blockquote>
+                    <p>"Barcelona: turismo y cultura", Ayuntamiento de Barcelona, 2020.</p>
+                </blockquote>
+                <!-- fin bibliografía -->
+            </footer>
+           </article>            
+            
+           
            <article>
             <header>
                 <hgroup>
@@ -87,11 +163,45 @@
                     <li>Camp Nou</li>
                     <li>Playa</li>
                 </ol>
-                <figure>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NcxGtbYCwlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <figcaption>Tips Para Viajeros</figcaption>
-                </figure>
+                
             </div>
+            <footer>
+                <!-- Datos del autor -->
+                <div>
+                    <span>Federico Simroth</span> <a href="http://twitter.com/fedesimroth" target="_blank">@fedesimroth en Twitter</a>
+                </div>
+                <!-- fin datos del autor -->
+                <!-- bibliografía -->
+                <blockquote>
+                    <p>"Barcelona: turismo y cultura", Ayuntamiento de Barcelona, 2020.</p>
+                </blockquote>
+                <!-- fin bibliografía -->
+            </footer>
+           </article>
+
+           <article>
+            <header>
+                <hgroup>
+                    <h2>Videos</h2>
+                    <h4>17/11/2022</h4>
+                </hgroup>
+            </header>
+            <figure class="ilustracion">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/NcxGtbYCwlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figcaption class="caption">Tips Para Viajeros</figcaption>
+            </figure>
+            <footer>
+                <!-- Datos del autor -->
+                <div>
+                    <span>Federico Simroth</span> <a href="http://twitter.com/fedesimroth" target="_blank">@fedesimroth en Twitter</a>
+                </div>
+                <!-- fin datos del autor -->
+                <!-- bibliografía -->
+                <blockquote>
+                    <p>"Barcelona: turismo y cultura", Ayuntamiento de Barcelona, 2020.</p>
+                </blockquote>
+                <!-- fin bibliografía -->
+            </footer>
            </article>
 
            <article>
@@ -108,6 +218,18 @@
                 <li><a href="https://www.disfrutabarcelona.com/historia">Historia de la ciudad</a></li>
                 <li><a href="https://www.elperiodico.com/es/barcelona/">Periodico de la Ciudad</a></li>
             </div>
+            <footer>
+                <!-- Datos del autor -->
+                <div>
+                    <span>Federico Simroth</span> <a href="http://twitter.com/fedesimroth" target="_blank">@fedesimroth en Twitter</a>
+                </div>
+                <!-- fin datos del autor -->
+                <!-- bibliografía -->
+                <blockquote>
+                    <p>"Barcelona: turismo y cultura", Ayuntamiento de Barcelona, 2020.</p>
+                </blockquote>
+                <!-- fin bibliografía -->
+            </footer>
            </article>
 
             </main>
@@ -116,14 +238,34 @@
 
             <!--Empieza barra lateral-->
             <aside>
-
+                <h2>Microblog</h2>
+                <div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es una ciudad vibrante y cosmopolita ubicada en la costa noreste de España. Es la capital de la región de Cataluña y la segunda ciudad más grande de España después de Madrid.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es conocida por su arquitectura única, que es el resultado de la influencia de muchos estilos diferentes a lo largo de los siglos. La ciudad es el hogar de algunas de las obras más famosas del arquitecto Antoni Gaudí, incluyendo la Sagrada Familia y el Parque Güell.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>La ciudad tiene una rica historia y cultura, que se refleja en sus numerosos museos y galerías de arte. Algunos de los más populares incluyen el Museo Picasso y el MACBA (Museo de Arte Contemporáneo de Barcelona).</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona también es conocida por sus playas, que atraen a turistas de todo el mundo. Las playas más populares incluyen Barceloneta, Bogatell y Mar Bella.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>El centro histórico de la ciudad, conocido como el Barrio Gótico, es un laberinto de calles estrechas y plazas llenas de historia y encanto. La catedral de Barcelona, ​​la plaza Sant Jaume y la plaza del Rey son solo algunos de los puntos destacados del barrio.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es también una ciudad de compras, con una amplia gama de tiendas y boutiques que ofrecen todo, desde diseñadores de alta gama hasta productos locales y artesanías.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>La comida es una parte importante de la cultura de Barcelona, ​​y la ciudad es conocida por su cocina mediterránea y su amor por el marisco. Algunos de los platos más populares incluyen la paella, el gazpacho y la fideuá.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es una ciudad con una vida nocturna vibrante y diversa. Desde bares de tapas tradicionales hasta clubes nocturnos de moda, hay algo para todos los gustos.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>El transporte público en Barcelona es eficiente y fácil de usar, lo que permite a los visitantes explorar la ciudad de manera cómoda y económica. El metro y el autobús son las formas más populares de transporte público.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es una ciudad deportiva, y es el hogar de uno de los equipos de fútbol más populares del mundo, el FC Barcelona. El estadio del equipo, el Camp Nou, es uno de los lugares más visitados de la ciudad.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>La ciudad también es conocida por sus festivales y celebraciones, como La Mercè, la Fiesta Mayor de Barcelona, ​​que se celebra cada año en septiembre y atrae a visitantes de todo el mundo.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>La ciudad también es conocida por sus parques y espacios verdes, como el Parque de la Ciutadella, el Parque de Montjuïc y el Parque de la Collserola, que ofrecen a los visitantes un oasis de tranquilidad en medio de la ciudad.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>Barcelona es una ciudad con una fuerte conexión con el mar, y los puertos de la ciudad son importantes para el comercio y la industria. El Puerto Olímpico, el Puerto de Barcelona y el Puerto de Sant Adrià son solo algunos de los puertos importantes de la ciudad.</span></div>
+<div><img src="assets/images/barceloneta-beach.jpeg" alt="barcelona" height="60px" width="auto"><span>En resumen, Barcelona es una ciudad vibrante y fascinante que ofrece a los visitantes una amplia gama de actividades, lugares de interés y experiencias únicas. Con su rica historia, cultura, arte, arquitectura, comida, vida nocturna y deportes, Barcelona es una ciudad que nunca deja de sorprender y emocionar a sus visitantes.</span></div>
 
             </aside>
             <!--termina barra lateral-->
 
             <!--empieza el footer-->
 
-            <footer>
+            <footer id="footerblog">
+
+                <div><span>Federico Simroth</span></div>
+                <div><span>Este blog fue creado en el <i>colegio alamos</i></span></div>
+                <div><span>Gerardo Portilla</span></div>
+
+
 
                 
             </footer>
